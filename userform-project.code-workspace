@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../userform-project"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "AOT-Project"
+  }
+}
