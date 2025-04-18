@@ -5,70 +5,93 @@
   box-sizing: border-box;
 }
 
+/* Body - AOT dark base */
 body {
   font-family: "Segoe UI", sans-serif;
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #121212; /* darker than before */
+  color: #f0f0f0; /* soft white for readability */
   padding: 20px;
 }
 
+/* Header and Footer - Centered with subtle crimson border */
 header,
 footer {
   text-align: center;
   margin-bottom: 20px;
+  border-bottom: 2px solid #ff3c3c;
+  padding-bottom: 10px;
 }
 
+/* Profile Card - Dark container with red glow */
 .profile-card {
-  background-color: #2d2d2d;
-  border-radius: 10px;
-  padding: 20px;
-  max-width: 400px;
+  background-color: #1e1e1e;
+  border: 1px solid #3a3a3a;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 420px;
   margin: auto;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 15px rgba(255, 60, 60, 0.3); /* red glow */
   text-align: center;
 }
 
+/* Image - Rounded, glowing border */
 .profile-img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 12px;
+  border: 2px solid #ff3c3c;
+  box-shadow: 0 0 10px rgba(255, 60, 60, 0.4);
 }
 
+/* Character Name - Blood red */
 .character-name {
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 15px;
   color: #ff3c3c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
+/* Role - Italic subtitle */
 .character-role {
   font-style: italic;
   margin: 10px 0;
+  color: #cccccc;
 }
 
+/* List of Details - Clean, readable */
 .details-list {
   list-style-type: circle;
   text-align: left;
   margin: 20px auto;
   max-width: 80%;
+  color: #dddddd;
 }
 
+/* Form Elements - Subtle red tint input box */
 form input[type="email"] {
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ff3c3c;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 6px;
   width: 80%;
+  outline: none;
 }
 
+/* Submit Button - Red with hover attack mode */
 form input[type="submit"] {
   background-color: #ff3c3c;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border: none;
-  margin-top: 10px;
-  border-radius: 5px;
+  margin-top: 12px;
+  border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 form input[type="submit"]:hover {
-  background-color: #e22d2d;
+  background-color: #d62828;
+  box-shadow: 0 0 8px #d62828;
 }
