@@ -95,3 +95,26 @@ form input[type="submit"]:hover {
   background-color: #d62828;
   box-shadow: 0 0 8px #d62828;
 }
+/* Image Gallery - Horizontal layout for multiple images */
+/* Responsive and flexible image gallery */
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.image-gallery .profile-img {
+  max-width: 300px; /* Let it be responsive, not fixed width */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff3c3c;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 60, 60, 0.4);
+}
+
+.image-gallery .profile-img:hover {
+  transform: scale(1.05);
+}
