@@ -5,37 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AOT Character Profile</title>
     <link rel="stylesheet" href="Style.css" />
-    <!--CSS link comes under title/head-->
   </head>
 
   <body>
+    <nav class="nav-bar">
+      <a href="../AOT-Eren-profile/Eren.html">Eren</a>
+      <a href="Mikasa.html">Mikasa</a>
+    </nav>
+
     <header>
-      <!--Big heading-->
-      <h1>Attack on Title - Character Profile</h1>
+      <h1>Attack on Titan - Character Profile</h1>
     </header>
 
     <section class="profile-card">
-      <img
-        src="https://i.pinimg.com/736x/c0/6e/66/c06e66394a3eed7bd7348f503447fd71.jpg"
-        alt="Mikasa in action"
-        class="profile-img"
-      />
-
+      <!-- Mikasa Profile Info -->
       <img
         src="https://images.alphacoders.com/137/thumb-1920-1372078.png"
-        alt="Mikasa's joy "
+        alt="Mikasa's joy"
         class="profile-img"
       />
       <h2 class="character-name">Mikasa Ackerman</h2>
       <p class="character-role">Elite Soldier, Protector</p>
+
       <ul class="details-list">
         <li>Affiliation: Survey Corps</li>
-        <li>Special Skills:Rutheless Protector, Master in Combat, Loyalty</li>
-        <li>Status: Died(of old age), Missed Eren a lot</li>
+        <li>Special Skills: Ruthless Protector, Master in Combat, Loyalty</li>
+        <li>Status: Died of old age (Missed Eren a lot)</li>
       </ul>
 
+      <!-- 🔥 Battle Skills - Now ABOVE the form -->
+      <article class="battle-section">
+        <h3>🔥 Battle Skills</h3>
+        <img
+          src="https://i.pinimg.com/736x/c0/6e/66/c06e66394a3eed7bd7348f503447fd71.jpg"
+          alt="Mikasa in action"
+          class="battle-img"
+        />
+        <p class="skill-text">
+          Mikasa excels in ODM gear combat, blade precision, and tactical
+          awareness. She’s known as humanity’s fiercest soldier.
+        </p>
+
+        <!-- Button wrapped in a link -->
+        <a
+          href="https://www.youtube.com/watch?v=LsmIVhj28Oc"
+          target="_blank"
+          class="battle-btn-link"
+        >
+          <button class="battle-btn">Witness Her Skills</button>
+        </a>
+      </article>
+
+      <br /><br />
+      <!-- ✉️ Recruitment Form -->
       <form>
-        <label for="name">Join Mikasa's Elite Unit:</label> <br /><br />
+        <label for="name">Join Mikasa's Elite Unit:</label><br /><br />
         <input
           type="text"
           id="name"
@@ -50,9 +74,9 @@
         <input type="submit" value="Join Now" />
       </form>
     </section>
+
     <footer>
       <p>&copy; 2025 AOT Universe. Mikasa's Division.</p>
     </footer>
   </body>
 </html>
-&copy; 2025 AOT Universe. Mikasa's Division.

@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Page Meta Info -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AOT Character Profile</title>
+
+    <!-- Link external CSS file -->
     <link rel="stylesheet" href="Erenstyle.css" />
   </head>
+
   <body>
+    <nav class="nav-bar">
+      <a href="Eren.html">Eren</a>
+      <a href="../AOT-Mikasa-profile/Mikasa.html">Mikasa</a>
+    </nav>
+
+    <!-- Main heading of the page -->
     <header>
       <h1>Attack on Titan - Character Profile</h1>
     </header>
+
+    <!-- Profile container for Eren -->
     <section class="profile-card">
+      <!-- 📸 Image Gallery Section -->
       <div class="image-gallery">
         <img
           src="https://preview.redd.it/ghun7at80ty51.jpg?width=1080&crop=smart&auto=webp&s=6cb7afb480d72fdd4698d52ef06783834ab106bf"
@@ -29,27 +42,40 @@
         />
       </div>
 
+      <!-- 🧍 Character Info -->
       <h2 class="character-name">Eren Yeager</h2>
       <p class="character-role">The Founding Titan, Attack Titan</p>
 
+      <!-- 📋 Character Traits List -->
       <ul class="details-list">
         <li>Affiliation: Survey Corps</li>
-        <li>Special Ability: Titan Shifter</li>
-        <li>Status: Complicated</li>
+        <li>
+          Special Abilities: Titan Shifter, Brave, Selfless, King of Titans,
+          Mastermind Strategist
+        </li>
+        <li>Status: 😶 Complicated</li>
       </ul>
 
+      <!-- ✉️ Recruitment Form -->
       <form>
-        <label for="email">Get updates from the AOT Universe:</label
-        ><br /><br />
+        <label for="name">Join Eren's Army:</label><br /><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
         <input
           type="email"
           placeholder="Enter your email"
           required
         /><br /><br />
-        <input type="submit" value="Subscribe" />
+        <input type="submit" value="Join Now" />
       </form>
     </section>
 
+    <br /><br />
+    <!-- Footer - Copyright -->
     <footer>
       <p>&copy; 2025 AOT Universe. All Rights Reserved.</p>
     </footer>
